@@ -31,6 +31,7 @@ jwplayer.key = "lmwviL3c55Ymnx4fMjEUQeiU00zeXf6TCiDHQA==";
 
 // Get URL
 var url = unescape(get("url"));
+var id = get("v");
 if(url.indexOf("youtube.com")) {
 window.onYouTubeIframeAPIReady = function() {
 	window.jwplayer = new YT.Player("player", {
@@ -81,4 +82,4 @@ $(document).ready(function () {
 		}
 	}
 });
-}
+};
