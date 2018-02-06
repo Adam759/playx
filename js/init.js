@@ -30,7 +30,7 @@ ga('send', 'pageview');
 jwplayer.key = "lmwviL3c55Ymnx4fMjEUQeiU00zeXf6TCiDHQA==";
 
 // Get URL
-var url = get("url")
+var url = get("url");
 
 window.onYouTubeIframeAPIReady = function() {
 	window.jwplayer = new YT.Player("player", {
